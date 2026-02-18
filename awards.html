@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards & Certifications | NHJ Contracting Company</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1579389083395-4507e98b5e67?q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 180px 0 120px;
+            color: #fff;
+            text-align: center;
+        }
+        .award-card {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .award-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+        }
+    </style>
+</head>
+<body class="loading">
+    <div id="preloader"><div class="loader-content"><h1 class="loader-logo">NHJ</h1><div class="loader-bar"></div></div></div>
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-scrolled" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/logo_new.png" alt="NHJ Logo" style="height: 60px; width: auto;" class="img-fluid">
+                <span class="fs-5 fw-bold" style="color: var(--primary-color);">NHJ Contracting</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="departments.html">Departments</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu border-0 shadow-lg">
+                            <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="services.html">Heavy Rental Equipment</a></li>
+                            <li><a class="dropdown-item" href="services.html">Oil & Gas</a></li>
+                            <li><a class="dropdown-item" href="services.html">Fire Protection</a></li>
+                            <li><a class="dropdown-item" href="services.html">Construction</a></li>
+                            <li><a class="dropdown-item" href="services.html">Manpower & Material Supply</a></li>
+                            <li><a class="dropdown-item" href="services.html">IT Service</a></li>
+                            <li><a class="dropdown-item" href="services.html">Mech & Elec Service</a></li>
+                            <li><a class="dropdown-item" href="services.html">Logistics & Transportation</a></li>
+                            <li><a class="dropdown-item" href="services.html">Camps & Modular Service</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="policies.html">Policies</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3 ms-lg-4">
+                    <button class="btn btn-outline-secondary btn-sm rounded-circle" id="theme-toggle"><i class="fas fa-moon"></i></button>
+                    <!-- Language Toggle (Placeholder) -->
+                    <a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-bold">AR</a>
+                    <a href="contact.html" class="btn btn-primary rounded-pill px-4 fw-bold">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container" data-aos="fade-up">
+            <h1 class="display-3 fw-bold header-font">Awards & Recognition</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Awards</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-section">
+        <div class="container">
+            <!-- Tabs -->
+            <ul class="nav nav-pills justify-content-center mb-5 gap-3" id="awardTabs" role="tablist" data-aos="fade-up">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-pill px-4 py-2 fw-bold" id="safety-tab" data-bs-toggle="tab" data-bs-target="#safety" type="button" role="tab">Safety Excellence</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill px-4 py-2 fw-bold" id="quality-tab" data-bs-toggle="tab" data-bs-target="#quality" type="button" role="tab">Quality Assurance</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill px-4 py-2 fw-bold" id="env-tab" data-bs-toggle="tab" data-bs-target="#env" type="button" role="tab">Environmental</button>
+                </li>
+            </ul>
+
+            <!-- Content -->
+            <div class="tab-content" id="awardTabsContent">
+                <!-- Safety Tab -->
+                <div class="tab-pane fade show active" id="safety" role="tabpanel" tabindex="0">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+                            <div class="card h-100 border-0 shadow-sm award-card text-center p-4">
+                                <a href="https://cf.ltkcdn.net/business/images/orig/215715-2122x1412-certificate-achievement-template.jpg" class="glightbox" data-title="Best Safety Performance 2024" data-description="Awarded by Aramco for outstanding safety record.">
+                                    <img src="https://cf.ltkcdn.net/business/images/orig/215715-2122x1412-certificate-achievement-template.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="Safety Award" style="height: 250px; object-fit: contain;">
+                                </a>
+                                <h4 class="fw-bold mb-2 header-font">Safety Performance 2024</h4>
+                                <p class="text-muted small">Recognized for achieving 5 million safe man-hours without LTI.</p>
+                                <div class="badge bg-success rounded-pill px-3 py-2">Safety First</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                             <div class="card h-100 border-0 shadow-sm award-card text-center p-4">
+                                <a href="https://img.freepik.com/free-vector/modern-certificate-template_1017-15220.jpg" class="glightbox" data-title="HSE Excellence Award" data-description="Presented for exceptional Health, Safety, and Environment management.">
+                                    <img src="https://img.freepik.com/free-vector/modern-certificate-template_1017-15220.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="HSE Award" style="height: 250px; object-fit: contain;">
+                                </a>
+                                <h4 class="fw-bold mb-2 header-font">HSE Excellence</h4>
+                                <p class="text-muted small">Top performer in Health, Safety, and Environment standards.</p>
+                                <div class="badge bg-primary rounded-pill px-3 py-2">HSE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quality Tab -->
+                <div class="tab-pane fade" id="quality" role="tabpanel" tabindex="0">
+                     <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-4">
+                             <div class="card h-100 border-0 shadow-sm award-card text-center p-4">
+                                <a href="https://img.freepik.com/free-vector/elegant-certificate-template_1435-1087.jpg" class="glightbox" data-title="ISO 9001:2015 Certification" data-description="International standard for Quality Management Systems.">
+                                    <img src="https://img.freepik.com/free-vector/elegant-certificate-template_1435-1087.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="ISO 9001" style="height: 250px; object-fit: contain;">
+                                </a>
+                                <h4 class="fw-bold mb-2 header-font">ISO 9001:2015</h4>
+                                <p class="text-muted small">Certified Quality Management System implementation.</p>
+                                <div class="badge bg-warning text-dark rounded-pill px-3 py-2">Quality</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Environment Tab -->
+                <div class="tab-pane fade" id="env" role="tabpanel" tabindex="0">
+                     <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-4">
+                             <div class="card h-100 border-0 shadow-sm award-card text-center p-4">
+                                <a href="https://img.freepik.com/free-vector/green-curve-frame-certificate-template_1017-33633.jpg" class="glightbox" data-title="ISO 14001:2015 Certification" data-description="International standard for Environmental Management Systems.">
+                                    <img src="https://img.freepik.com/free-vector/green-curve-frame-certificate-template_1017-33633.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="ISO 14001" style="height: 250px; object-fit: contain;">
+                                </a>
+                                <h4 class="fw-bold mb-2 header-font">ISO 14001:2015</h4>
+                                <p class="text-muted small">Commitment to sustainable environmental practices.</p>
+                                <div class="badge bg-success rounded-pill px-3 py-2">Environment</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-brand-footer text-light py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-4">
+                        <i class="fas fa-building text-accent fs-3" style="color: var(--accent-color);"></i>
+                        <span class="fs-4 fw-bold header-font">NHJ Contracting</span>
+                    </div>
+                    <p class="text-white-50 small">NHJ Contracting Company is a Saudi-based company dedicated to delivering high-quality services across the Oil and Gas, Construction, Industrial, and Logistics sectors.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="header-font fw-bold mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none transition-all">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none transition-all">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Services</a></li>
+                        <li class="mb-2"><a href="projects.html" class="text-white-50 text-decoration-none transition-all">Projects</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none transition-all">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="header-font fw-bold mb-4">Services</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Oil & Gas</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Construction</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Safety & Fire</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Facility Mgmt</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Logistics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="header-font fw-bold mb-4">Newsletter</h5>
+                    <p class="text-white-50 small mb-3">Subscribe to our newsletter for latest updates.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-transparent border-secondary text-white" placeholder="Email Address" aria-label="Email Address">
+                        <button class="btn btn-warning" type="button"><i class="fas fa-paper-plane text-dark"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5 pt-4 border-top border-secondary">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small text-white-50 mb-0">&copy; 2026 NHJ Contracting Company. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0 small">
+                        <li class="list-inline-item"><a href="policies.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+                        <li class="list-inline-item mx-2 text-white-50">|</li>
+                        <li class="list-inline-item"><a href="policies.html" class="text-white-50 text-decoration-none">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NHJ Contracting Company - Building a better future through innovation, integrity, and dedication. Specialized in Construction, Oil & Gas, and Industrial Services in Saudi Arabia.">
+    <title>NHJ Contracting Company | Building Excellence</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- GLightbox -->
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+    
+    <!-- Parallax Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.0.4/jarallax.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="loading">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <h1 class="loader-logo">NHJ</h1>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/logo_new.png" alt="NHJ Logo" style="height: 60px; width: auto;" class="img-fluid">
+                <span class="fs-5 fw-bold" style="color: var(--primary-color);">NHJ Contracting</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu border-0 shadow-lg">
+                            <li><a class="dropdown-item" href="service-heavy-equipment.html">Heavy Rental Equipment</a></li>
+                            <li><a class="dropdown-item" href="service-oil-gas.html">Oil & Gas Services</a></li>
+                            <li><a class="dropdown-item" href="service-fire-protection.html">Fire Protection</a></li>
+                            <li><a class="dropdown-item" href="service-manpower.html">Manpower & Material</a></li>
+                            <li><a class="dropdown-item" href="service-it.html">IT Services</a></li>
+                            <li><a class="dropdown-item" href="service-mep.html">MEP Services</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                            <li><a class="dropdown-item" href="departments.html">Departments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="policies.html">Policies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
+                </ul>
+                
+                <div class="d-flex align-items-center gap-3 ms-lg-4 mt-3 mt-lg-0">
+                    <!-- Theme Toggle -->
+                    <button class="btn btn-outline-secondary btn-sm rounded-circle" id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <!-- Language Toggle (Placeholder) -->
+                    <a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-bold">AR</a>
+                    <a href="contact.html" class="btn btn-primary rounded-pill px-4 fw-bold">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section (Hero Slider) -->
+    <header id="home" class="masthead position-relative overflow-hidden">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner h-100">
+                <!-- Slide 1 -->
+                <div class="carousel-item active h-100">
+                    <!-- Placeholder Image - normally from generated assets -->
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1920&auto=format&fit=crop" class="d-block w-100 h-100 object-fit-cover overlay-dark" alt="Construction Site">
+                    <div class="carousel-caption d-flex align-items-center h-100">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+                                    <h5 class="text-uppercase text-logo-green slider-subtitle ls-2 mb-3 fw-bold d-inline-block">Building The Future</h5>
+                                    <h1 class="display-3 fw-bolder text-white mb-4 header-font">Constructing Excellence <br>With Integrity</h1>
+                                    <p class="lead mb-5 d-none d-md-block">NHJ Contracting Company delivers high-quality services <br>across Oil & Gas, Construction, and Industrial sectors.</p>
+                                    <a class="btn btn-primary btn-lg rounded-pill px-4 py-3 me-3 text-uppercase fw-bold" href="#contact">Get Started</a>
+                                    <a class="btn btn-outline-light btn-lg rounded-pill px-4 py-3 text-uppercase fw-bold" href="#services">Our Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item h-100">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1920&auto=format&fit=crop" class="d-block w-100 h-100 object-fit-cover overlay-dark" alt="Industrial Facility">
+                    <div class="carousel-caption d-flex align-items-center h-100">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+                                    <h5 class="text-uppercase text-logo-green slider-subtitle ls-2 mb-3 fw-bold d-inline-block">Industrial Solutions</h5>
+                                    <h1 class="display-3 fw-bolder text-white mb-4 header-font">Comprehensive <br>Industrial Services</h1>
+                                    <p class="lead mb-5 d-none d-md-block">Offering integrated solutions in equipment supply, <br>maintenance, and facility management.</p>
+                                    <a class="btn btn-primary btn-lg rounded-pill px-4 py-3 text-uppercase fw-bold" href="#contact">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item h-100">
+                    <img src="https://images.unsplash.com/photo-1590247813693-5541d1c609fd?q=80&w=1920&auto=format&fit=crop" class="d-block w-100 h-100 object-fit-cover overlay-dark" alt="Team Work">
+                    <div class="carousel-caption d-flex align-items-center h-100">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+                                    <h5 class="text-uppercase text-logo-green slider-subtitle ls-2 mb-3 fw-bold d-inline-block">Vision 2030</h5>
+                                    <h1 class="display-3 fw-bolder text-white mb-4 header-font">Contributing to <br>Saudi Arabia's Growth</h1>
+                                    <p class="lead mb-5 d-none d-md-block">Dedicated to sustainable development and operational success <br>through innovative methods.</p>
+                                    <a class="btn btn-primary btn-lg rounded-pill px-4 py-3 text-uppercase fw-bold" href="#about">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon p-4 bg-dark bg-opacity-50" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon p-4 bg-dark bg-opacity-50" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- CEO Message Section -->
+    <section class="page-section bg-body-tertiary" id="ceo-message">
+        <div class="container">
+            <div class="row align-items-center gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="position-relative">
+                        <!-- Placeholder for CEO Image -->
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop" class="img-fluid rounded shadow-lg" alt="CEO Message">
+                        <div class="position-absolute bottom-0 start-0 bg-primary p-4 text-white rounded-end shadow" style="transform: translateY(20px);">
+                            <h4 class="mb-0 fw-bold header-font">CEO Message</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="ps-lg-4">
+                        <h2 class="section-heading text-uppercase mb-4 fw-bold header-font">Leadership & Strategy</h2>
+                        <i class="fas fa-quote-left display-6 text-primary mb-3 opacity-25"></i>
+                        <p class="text-muted lead fst-italic mb-4">
+                            "At NHJ Contracting Company, our mission is to build a better future through innovation, integrity, and dedication. We understand that our clients operate in demanding industries where precision and reliability are vital. That’s why we continually strive to enhance our capabilities, ensuring every service we deliver meets the highest standards of quality and safety."
+                        </p>
+                        <p class="text-muted mb-4">
+                            Our success is driven by the trust of our partners and the hard work of our people. Together, we aim to be a driving force in the Kingdom’s industrial and construction growth, contributing to Saudi Arabia’s Vision 2030 through excellence and sustainable development.
+                        </p>
+                        <!-- Signature Placeholder -->
+                        <div class="mt-4">
+                            <h5 class="fw-bold mb-0">NHJ Management</h5>
+                            <small class="text-uppercase text-muted ls-1">Company Leadership</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading text-uppercase header-font fw-bold">About Us</h2>
+                <div class="divider mx-auto my-3 bg-primary"></div>
+                <h3 class="section-subheading text-muted w-75 mx-auto">NHJ Contracting Company is a Saudi-based company dedicated to delivering high-quality services across the Oil and Gas, Construction, Industrial, and Logistics sectors.</h3>
+            </div>
+            
+            <div class="row text-center mt-5">
+                <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-100 p-4 border rounded-3 hover-shadow transition-all bg-body h-100">
+                        <span class="fa-stack fa-4x mb-4">
+                            <i class="fas fa-circle fa-stack-2x text-primary opacity-10"></i>
+                            <i class="fas fa-eye fa-stack-1x text-primary"></i>
+                        </span>
+                        <h4 class="my-3 fw-bold header-font">Our Vision</h4>
+                        <p class="text-muted">To allow NHJ to continue supporting clients in achieving operational success through innovative methods, building a solid reputation for reliability, safety, and technical excellence.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-100 p-4 border rounded-3 hover-shadow transition-all bg-body h-100">
+                        <span class="fa-stack fa-4x mb-4">
+                            <i class="fas fa-circle fa-stack-2x text-primary opacity-10"></i>
+                            <i class="fas fa-bullseye fa-stack-1x text-primary"></i>
+                        </span>
+                        <h4 class="my-3 fw-bold header-font">Our Mission</h4>
+                        <p class="text-muted">To build long-term partnerships based on integrity, trust, and consistent results. Integrating safety, efficiency, and sustainability into every project.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+                    <div class="h-100 p-4 border rounded-3 hover-shadow transition-all bg-body h-100">
+                        <span class="fa-stack fa-4x mb-4">
+                            <i class="fas fa-circle fa-stack-2x text-primary opacity-10"></i>
+                            <i class="fas fa-star fa-stack-1x text-primary"></i>
+                        </span>
+                        <h4 class="my-3 fw-bold header-font">Our Quality</h4>
+                        <p class="text-muted">Quality, reliability, and productivity consistently meet and often surpass client expectations. Supported by a highly qualified team and modern equipment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="page-section bg-brand-accent position-relative" id="services">
+        <div class="container position-relative z-1">
+            <div class="text-center mb-5 text-dark">
+                <h2 class="section-heading text-uppercase fw-bold header-font">Our Services</h2>
+                <div class="divider mx-auto my-3 bg-dark"></div>
+                <h3 class="section-subheading text-dark opacity-75">Providing a wide range of integrated services designed to meet growing demands.</h3>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="100">
+                    <div class="service-card bg-white p-4 h-100 text-center rounded shadow-sm position-relative overflow-hidden group">
+                        <div class="icon-box mb-3 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="fas fa-truck-moving fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3 header-font fw-bold">Heavy Rental Equipment</h4>
+                        <p class="text-muted small">Comprehensive heavy machinery rental solutions for construction and industrial needs.</p>
+                        <a href="service-heavy-equipment.html" class="btn btn-link text-primary text-decoration-none fw-bold small stretched-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                    <div class="service-card bg-white p-4 h-100 text-center rounded shadow-sm position-relative overflow-hidden group">
+                        <div class="icon-box mb-3 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="fas fa-oil-well fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3 header-font fw-bold">Oil & Gas Services</h4>
+                        <p class="text-muted small">Specialized services supporting the extraction, processing, and transportation in the energy sector.</p>
+                        <a href="service-oil-gas.html" class="btn btn-link text-primary text-decoration-none fw-bold small stretched-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="300">
+                    <div class="service-card bg-white p-4 h-100 text-center rounded shadow-sm position-relative overflow-hidden group">
+                        <div class="icon-box mb-3 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="fas fa-fire-extinguisher fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3 header-font fw-bold">Fire Protection</h4>
+                        <p class="text-muted small">Advanced fire safety systems installation, maintenance, and compliance services.</p>
+                        <a href="service-fire-protection.html" class="btn btn-link text-primary text-decoration-none fw-bold small stretched-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="400">
+                    <div class="service-card bg-white p-4 h-100 text-center rounded shadow-sm position-relative overflow-hidden group">
+                        <div class="icon-box mb-3 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="fas fa-hard-hat fa-2x"></i> // Manpower
+                        </div>
+                        <h4 class="mb-3 header-font fw-bold">Manpower & Material</h4>
+                        <p class="text-muted small">Supply of skilled technical workforce and high-quality construction materials.</p>
+                        <a href="service-manpower.html" class="btn btn-link text-primary text-decoration-none fw-bold small stretched-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="500">
+                    <div class="service-card bg-white p-4 h-100 text-center rounded shadow-sm position-relative overflow-hidden group">
+                        <div class="icon-box mb-3 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="fas fa-server fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3 header-font fw-bold">IT Services</h4>
+                        <p class="text-muted small">Robust IT infrastructure, networking, and digital solutions for modern businesses.</p>
+                        <a href="service-it.html" class="btn btn-link text-primary text-decoration-none fw-bold small stretched-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="600">
+                    <div class="service-card bg-white p-4 h-100 text-center rounded shadow-sm position-relative overflow-hidden group">
+                        <div class="icon-box mb-3 rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="fas fa-cogs fa-2x"></i>
+                        </div>
+                        <h4 class="mb-3 header-font fw-bold">Mech & Elec Services</h4>
+                        <p class="text-muted small">Complete mechanical and electrical engineering, installation, and maintenance.</p>
+                        <a href="service-mep.html" class="btn btn-link text-primary text-decoration-none fw-bold small stretched-link">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scope of Work Section -->
+    <section class="page-section" id="scope">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200" class="img-fluid rounded shadow-lg" alt="Scope of Work">
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <h2 class="section-heading text-uppercase fw-bold header-font mb-4">Scope of Work</h2>
+                    <p class="lead text-muted mb-4">Our scope of work covers the full project lifecycle from planning and supply to execution and maintenance ensuring quality, safety, and reliability at every stage.</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-primary me-3 fs-5"></i>
+                            <span class="fw-bold">Engineering & Supply Installation</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-primary me-3 fs-5"></i>
+                            <span class="fw-bold">Maintenance & Supervision</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-primary me-3 fs-5"></i>
+                            <span class="fw-bold">Renovation & Developing</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-primary me-3 fs-5"></i>
+                            <span class="fw-bold">Testing & Commissioning</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="page-section bg-body-tertiary" id="projects">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading text-uppercase fw-bold header-font">Featured Projects</h2>
+                <div class="divider mx-auto my-3 bg-primary"></div>
+                <h3 class="section-subheading text-muted">A glimpse into our portfolio of excellence.</h3>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card h-100 border-0 shadow-sm card-hover overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="card-img-top object-fit-cover" style="height: 250px;" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800" alt="Riyadh Metro Extension" />
+                            <div class="overlay-hover bg-primary bg-opacity-75 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center opacity-0 transition-all">
+                                <a href="https://images.unsplash.com/photo-1590644365607-1c5a38fc0910?q=80&w=800" class="btn btn-outline-light rounded-circle glightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary mb-2">Infrastructure</div>
+                            <h5 class="card-title fw-bold header-font">Riyadh Metro Extension</h5>
+                            <p class="card-text text-muted small">Major infrastructure development supporting the city's transport network.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow-sm card-hover overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="card-img-top object-fit-cover" style="height: 250px;" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800" alt="Industrial Fabrication" />
+                             <div class="overlay-hover bg-primary bg-opacity-75 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center opacity-0 transition-all">
+                                <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800" class="btn btn-outline-light rounded-circle glightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="badge bg-warning text-dark mb-2">Industrial</div>
+                            <h5 class="card-title fw-bold header-font">Industrial Fabrication</h5>
+                            <p class="card-text text-muted small">Custom steel fabrication and assembly for heavy industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow-sm card-hover overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="card-img-top object-fit-cover" style="height: 250px;" src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800" alt="Facility Maintenance" />
+                             <div class="overlay-hover bg-primary bg-opacity-75 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center opacity-0 transition-all">
+                                <a href="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800" class="btn btn-outline-light rounded-circle glightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="badge bg-success mb-2">Maintenance</div>
+                            <h5 class="card-title fw-bold header-font">Aramco Facility Maintenance</h5>
+                            <p class="card-text text-muted small">Long-term maintenance contract for key energy facilities in Dhahran.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow-sm card-hover overflow-hidden">
+                         <div class="position-relative overflow-hidden">
+                            <img class="card-img-top object-fit-cover" style="height: 250px;" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800" alt="Commercial Tower" />
+                             <div class="overlay-hover bg-primary bg-opacity-75 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center opacity-0 transition-all">
+                                <a href="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800" class="btn btn-outline-light rounded-circle glightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="badge bg-secondary mb-2">Construction</div>
+                            <h5 class="card-title fw-bold header-font">Commercial Tower</h5>
+                            <p class="card-text text-muted small">High-rise structural execution in the heart of Riyadh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card h-100 border-0 shadow-sm card-hover overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="card-img-top object-fit-cover" style="height: 250px;" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800" alt="Solar Power Plant" />
+                             <div class="overlay-hover bg-primary bg-opacity-75 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center opacity-0 transition-all">
+                                <a href="https://images.unsplash.com/photo-1508514177221-188b1cf2f24f?q=80&w=800" class="btn btn-outline-light rounded-circle glightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="badge bg-info text-white mb-2">Energy</div>
+                            <h5 class="card-title fw-bold header-font">Solar Power Plant</h5>
+                            <p class="card-text text-muted small">Installation of photovoltaic systems for renewable energy project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card h-100 border-0 shadow-sm card-hover overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="card-img-top object-fit-cover" style="height: 250px;" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800" alt="Public Hospital" />
+                             <div class="overlay-hover bg-primary bg-opacity-75 position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center opacity-0 transition-all">
+                                <a href="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800" class="btn btn-outline-light rounded-circle glightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="badge bg-danger mb-2">Healthcare</div>
+                            <h5 class="card-title fw-bold header-font">Public Hospital</h5>
+                            <p class="card-text text-muted small">Full MEP and Civil works for a 150-bed medical facility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a class="btn btn-outline-dark btn-lg rounded-pill px-5 py-3 fw-bold text-uppercase" href="projects.html">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="page-section bg-brand-primary text-white position-relative" id="testimonials" style="padding: 50px 0;">
+        <div class="container position-relative z-1">
+            <div class="text-center mb-5">
+                <h2 class="section-heading text-uppercase fw-bold header-font">What Our Clients Say</h2>
+                <div class="divider mx-auto my-3 bg-white"></div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators mb-0" style="bottom: -50px;">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        
+                        <div class="carousel-inner text-center">
+                            <!-- Testimonial 1 -->
+                            <div class="carousel-item active">
+                                <div class="mb-4">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1" class="rounded-circle shadow-lg border border-3 border-white" style="width: 100px; height: 100px; object-fit: cover;">
+                                </div>
+                                <i class="fas fa-quote-left display-6 text-warning mb-4 opacity-50"></i>
+                                <p class="lead fst-italic mb-4 fw-light">"NHJ Contracting demonstrated exceptional professionalism in handling our logistics center expansion. Their commitment to safety and deadlines was impressive."</p>
+                                <h5 class="fw-bold mb-1">Ali Al-Qahtani</h5>
+                                <p class="small text-white-50 text-uppercase ls-1">Project Manager, Aramco</p>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="carousel-item">
+                                <div class="mb-4">
+                                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Client 2" class="rounded-circle shadow-lg border border-3 border-white" style="width: 100px; height: 100px; object-fit: cover;">
+                                </div>
+                                <i class="fas fa-quote-left display-6 text-warning mb-4 opacity-50"></i>
+                                <p class="lead fst-italic mb-4 fw-light">"The quality of work delivered for our commercial tower foundation was outstanding. Highly recommended for complex structural projects."</p>
+                                <h5 class="fw-bold mb-1">Omar Farooq</h5>
+                                <p class="small text-white-50 text-uppercase ls-1">Senior Engineer, Riyadh Dev Co.</p>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="carousel-item">
+                                <div class="mb-4">
+                                    <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="Client 3" class="rounded-circle shadow-lg border border-3 border-white" style="width: 100px; height: 100px; object-fit: cover;">
+                                </div>
+                                <i class="fas fa-quote-left display-6 text-warning mb-4 opacity-50"></i>
+                                <p class="lead fst-italic mb-4 fw-light">"Reliable partners for industrial maintenance. Their team is skilled, responsive, and adheres to strict safety protocols."</p>
+                                <h5 class="fw-bold mb-1">Khalid Al-Sayed</h5>
+                                <p class="small text-white-50 text-uppercase ls-1">Operations Director, Sabic</p>
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading text-uppercase fw-bold header-font">Contact Us</h2>
+                <div class="divider mx-auto my-3 bg-primary"></div>
+                <h3 class="section-subheading text-muted">Get in touch for consultations and proposals.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-5" data-aos="fade-right">
+                    <div class="bg-body-tertiary p-5 rounded h-100 shadow-sm">
+                        <h3 class="fw-bold mb-4 header-font">Our Office</h3>
+                        
+                        <div class="d-flex mb-4">
+                            <i class="fas fa-map-marker-alt text-primary fa-2x me-3"></i>
+                            <div>
+                                <h5 class="fw-bold">Location</h5>
+                                <p class="text-muted">
+                                    3081, S.Q Business Tower 1,<br>
+                                    Abdullah Bin Dahlan St, Al Khuzama,<br>
+                                    Al Khobar, P.O Box: 34718, KSA
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <i class="fas fa-envelope text-primary fa-2x me-3"></i>
+                            <div>
+                                <h5 class="fw-bold">Email</h5>
+                                <p class="text-muted">
+                                    info@nhjksa.com<br>
+                                    ameer@nhjksa.com
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <i class="fas fa-phone-alt text-primary fa-2x me-3"></i>
+                            <div>
+                                <h5 class="fw-bold">Phone</h5>
+                                <p class="text-muted">
+                                    +966 50 155 9998<br>
+                                    +966 54 485 2212
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 mb-5" data-aos="fade-left">
+                    <form id="contactForm" class="bg-white p-5 rounded shadow-sm border">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary btn-lg w-100 py-3 rounded-0 text-uppercase fw-bold mt-2" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map -->
+            <div class="row mt-4">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="ratio ratio-21x9 rounded overflow-hidden shadow-sm">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14494.471900139932!2d46.738586!3d24.713552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1645000000000!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer bg-brand-footer text-light py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-4">
+                        <i class="fas fa-building text-accent fs-3" style="color: var(--accent-color);"></i>
+                        <span class="fs-4 fw-bold header-font">NHJ Contracting</span>
+                    </div>
+                    <p class="text-white-50 small">NHJ Contracting Company is a Saudi-based company dedicated to delivering high-quality services across the Oil and Gas, Construction, Industrial, and Logistics sectors.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="header-font fw-bold mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none transition-all">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none transition-all">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Services</a></li>
+                        <li class="mb-2"><a href="projects.html" class="text-white-50 text-decoration-none transition-all">Projects</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none transition-all">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="header-font fw-bold mb-4">Services</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Oil & Gas</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Construction</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Safety & Fire</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Facility Mgmt</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none transition-all">Logistics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="header-font fw-bold mb-4">Newsletter</h5>
+                    <p class="text-white-50 small mb-3">Subscribe to our newsletter for latest updates.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-transparent border-secondary text-white" placeholder="Email Address" aria-label="Email Address">
+                        <button class="btn btn-warning" type="button"><i class="fas fa-paper-plane text-dark"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5 pt-4 border-top border-secondary">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small text-white-50 mb-0">&copy; 2026 NHJ Contracting Company. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0 small">
+                        <li class="list-inline-item"><a href="policies.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+                        <li class="list-inline-item mx-2 text-white-50">|</li>
+                        <li class="list-inline-item"><a href="policies.html" class="text-white-50 text-decoration-none">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

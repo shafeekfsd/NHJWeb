@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | NHJ Contracting Company</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+            padding: 150px 0 100px;
+            color: #fff;
+            text-align: center;
+        }
+        .service-detail-card {
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+        .service-detail-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="loading">
+    <div id="preloader"><div class="loader-content"><h1 class="loader-logo">NHJ</h1><div class="loader-bar"></div></div></div>
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-scrolled" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/logo_new.png" alt="NHJ Logo" style="height: 60px; width: auto;" class="img-fluid">
+                <span class="fs-5 fw-bold" style="color: var(--primary-color);">NHJ Contracting</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu border-0 shadow-lg">
+                            <li><a class="dropdown-item active" href="services.html">All Services</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="services.html">Heavy Rental Equipment</a></li>
+                            <li><a class="dropdown-item" href="services.html">Oil & Gas</a></li>
+                            <li><a class="dropdown-item" href="services.html">Fire Protection</a></li>
+                            <li><a class="dropdown-item" href="services.html">Construction</a></li>
+                            <li><a class="dropdown-item" href="services.html">Manpower & Material Supply</a></li>
+                            <li><a class="dropdown-item" href="services.html">IT Service</a></li>
+                            <li><a class="dropdown-item" href="services.html">Mech & Elec Service</a></li>
+                            <li><a class="dropdown-item" href="services.html">Logistics & Transportation</a></li>
+                            <li><a class="dropdown-item" href="services.html">Camps & Modular Service</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="policies.html">Policies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3 ms-lg-4">
+                    <button class="btn btn-outline-secondary btn-sm rounded-circle" id="theme-toggle"><i class="fas fa-moon"></i></button>
+                    <!-- Language Toggle (Placeholder) -->
+                    <a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-bold">AR</a>
+                    <a href="contact.html" class="btn btn-primary rounded-pill px-4 fw-bold">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container" data-aos="fade-up">
+            <h1 class="display-3 fw-bold header-font">Our Services</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-section" id="services-list">
+        <div class="container">
+            <div class="row g-4">
+                <!-- heavy equipment -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card service-detail-card border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1579624584281-aaceac746535?q=80&w=800" class="card-img-top" alt="Heavy Equipment" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold header-font mb-3">Heavy Rental Equipment</h4>
+                            <p class="card-text text-muted">A comprehensive range of heavy machinery available for rental to support large-scale construction and industrial projects efficiently.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oil & Gas -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card service-detail-card border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1547483238-2cbf881a559f?q=80&w=800" class="card-img-top" alt="Oil & Gas" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold header-font mb-3">Oil & Gas Services</h4>
+                            <p class="card-text text-muted">Specialized support for the energy sector including maintenance, pipeline services, and facility management.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fire Protection -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card service-detail-card border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1599818320499-d517c2409564?q=80&w=800" class="card-img-top" alt="Fire Protection" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold header-font mb-3">Fire Protection</h4>
+                            <p class="card-text text-muted">Design, installation, and maintenance of advanced fire safety systems to ensure facility compliance and safety.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Manpower -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card service-detail-card border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?q=80&w=800" class="card-img-top" alt="Manpower" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold header-font mb-3">Manpower Supply</h4>
+                            <p class="card-text text-muted">Providing skilled, semi-skilled, and unskilled labor for various industrial and construction domains.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- IT Services -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card service-detail-card border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800" class="card-img-top" alt="IT Services" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold header-font mb-3">IT Services</h4>
+                            <p class="card-text text-muted">Digital infrastructure setup, networking, and maintenance services for modern smart facilities.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MEP -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card service-detail-card border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800" class="card-img-top" alt="MEP Services" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold header-font mb-3">Mechanical & Electrical</h4>
+                            <p class="card-text text-muted">Full-spectrum MEP services including HVAC, electrical wiring, and plumbing for large-scale projects.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="text-center">
+                <p class="small text-white-50">&copy; 2026 NHJ Contracting Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
